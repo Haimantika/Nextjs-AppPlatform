@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Textarea } from "@/components/ui/textarea"
 import { Input } from "@/components/ui/input"
+import { Github } from "lucide-react"
 
 interface GuestbookEntry {
   id: number
@@ -159,11 +160,27 @@ export default function GuestbookPage() {
 
         {/* Footer */}
         <div className="mt-12 text-center">
-          <p className="text-muted-foreground text-sm">
-            Thank you for being part of our community!
-            <br />
-            All messages are public and help create a welcoming space for everyone.
-          </p>
+          <div className="mt-6 flex items-center justify-center gap-4">
+            <p className="text-muted-foreground text-sm">
+              Built with{" "}
+              <a 
+                href="https://cloud.digitalocean.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary/80 transition-colors font-medium"
+              >
+                DigitalOcean
+              </a>
+            </p>
+            <a 
+              href="https://github.com/Haimantika/Nextjs-AppPlatform" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-foreground transition-all duration-200 hover:scale-110"
+            >
+              <Github className="h-6 w-6" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
