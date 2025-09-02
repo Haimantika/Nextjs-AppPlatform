@@ -1,6 +1,6 @@
 # Guestbook - Next.js App
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/hmitra/Nextjs-AppPlatform/tree/main)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Haimantika/Nextjs-AppPlatform/tree/main)
 
 A modern, responsive guestbook application built with Next.js, TypeScript, DigitalOcean and Tailwind CSS.
 
