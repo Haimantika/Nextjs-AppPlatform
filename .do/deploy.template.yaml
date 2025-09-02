@@ -4,7 +4,7 @@ spec:
     - name: web
       source_dir: /
       github:
-        repo: hmitra/Nextjs-AppPlatform
+        repo: Haimantika/Nextjs-AppPlatform
         branch: main
       run_command: npm start
       environment_slug: node-js
