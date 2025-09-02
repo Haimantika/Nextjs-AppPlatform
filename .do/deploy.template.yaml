@@ -5,10 +5,9 @@ spec:
     - name: web
       environment_slug: node-js
       source_dir: ./
-      github:
-        repo: Haimantika/Nextjs-AppPlatform
+      git:
+        repo_clone_url: https://github.com/Haimantika/Nextjs-AppPlatform.git
         branch: main
-        deploy_on_push: true
       build_command: "npm install && npm run build"
       run_command: "npm start"
       http_port: 3000
